@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+ 
+    <link rel='stylesheet' type='text/css' media='screen' href='task2.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+  <header class="header">
+    <a href="#">
+        <img src="logo.png" alt="" width="70">
+    </a>
+    <nav class="navbar">
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">menue</a></li>
+        <li><a href="#">products</a></li>
+        <li><a href="#">service</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">blog</a></li>
+    </ul>
+    </nav>
+ 
+      <ul class="icon">
+        <li>
+          <i class="fas fa-search" id="search-btn"></i>
+          <li> <i class="fas fa-shopping-cart" id="cart"></i>
+          <div class="card_product">
+ 
+ 
+          </div>
+          <p ><strong>total: <span id="price"></span></strong></p>
+          </li>
+        </li>
+      </ul>
+        
+        
+        
+ 
+    <div class="search">
+        <input type="search" id="search-box" placeholder="searh hre....">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+     
+    </header>
+<div class="main">
+   <div class="container">
+   
+
+
+    <div class="content">
+      <div class=" item item1" id="left_item">
+        <div class="image">
+          <img src="IMG-20210819-WA0002.jpg" alt="">
+      </div>
+<div class="info">
+<h1>delecoius sandwich</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+<button class="details btn">details</button>
+<button class="buy btn" price="100" name="delecoius sandwich">buy now</button>
+</div>
+      </div>
+      <div class="item item2" id="right-item">
+        <div class="image">
+            <img src="IMG-20210819-WA0007.jpg" alt="">
+        </div>
+<div class="info">
+<h1>delecoius pasta</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+<button class="details btn">details</button>
+<button class="buy btn" price="200" name="delecoius pasta">buy now</button>
+</div>
+    </div>
+   
+<div class="control">
+  <button class="show btn" id="left">left side</button>
+  <button class="show btn" id="right">right side</button>
+</div>
+  </div>
+   </div>
+</div>
+
+  
+  <script src="task1.js"></script>
+</body>
+</html>
